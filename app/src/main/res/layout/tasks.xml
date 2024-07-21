@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ask"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/buttonbacktasks"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="К оглавлению" />
+
+    <TextView
+        android:id="@+id/qt1"
+        android:layout_width="match_parent"
+        android:layout_below="@+id/buttonbacktasks"
+        android:layout_height="wrap_content"
+        android:text="@string/qt1"
+        android:textAlignment="center"
+        android:layout_marginTop="20sp"
+        android:textColor="@color/black"
+        android:textSize="25sp" />
+    <TextView
+        android:id="@+id/q1"
+        android:layout_width="match_parent"
+        android:layout_below="@+id/qt1"
+        android:layout_height="wrap_content"
+        android:text="@string/q1"
+        android:textAlignment="center"
+        android:layout_marginTop="20sp"
+        android:textColor="@color/black"
+        android:textSize="23sp" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/answ1"
+        android:hint="Введите ответ"
+        android:layout_marginHorizontal="50sp"
+        android:backgroundTint="@color/purple_200"
+        android:textSize="20sp"
+        android:layout_below="@+id/q1" />
+    <Button
+        android:id="@+id/buttonansw"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/answ1"
+        android:layout_marginHorizontal="50sp"
+        android:layout_marginTop="10sp"
+        android:text="Ответить" />
+
+
+</RelativeLayout>
